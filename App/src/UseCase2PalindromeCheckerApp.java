@@ -1,11 +1,9 @@
-// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
-public class PalindromeCheckerApp {
-   public PalindromeCheckerApp() {
-   }
-
-   public static void main(String[] var0) {
+public class UseCase2PalindromeCheckerApp {
+    public static void main(String[] args) {
+        // Hardcoded string to check
         String word = "odd";
         
+        // Check if the string is a palindrome
         String reversed = new StringBuilder(word).reverse().toString();
         
         if (word.equals(reversed)) {
@@ -13,5 +11,5 @@ public class PalindromeCheckerApp {
         } else {
             System.out.println(word + " is not a palindrome.");
         }
-   }
+    }
 }

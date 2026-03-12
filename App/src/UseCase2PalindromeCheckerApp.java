@@ -7,9 +7,9 @@ public class UseCase2PalindromeCheckerApp {
         String reversed = new StringBuilder(word).reverse().toString();
         
         if (word.equals(reversed)) {
-            System.out.println(word + " is a palindrome.");
+            System.out.println(word + " is a palindrome. ");
         } else {
-            System.out.println(word + " is not a palindrome.");
+            System.out.println(word + " is not a palindrome. bhaiiii");
         }
     }
 }
